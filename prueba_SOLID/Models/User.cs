@@ -11,7 +11,7 @@ namespace prueba_SOLID.Models
         public string Username { get; }
         public string Name { get; set; }
 
-        public string Password { get; }
+        public Password Password { get; }
 
         private bool _validCredentials = false;
 
